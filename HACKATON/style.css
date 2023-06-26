@@ -1,0 +1,123 @@
+#logo img{
+    width: 80px;
+}
+
+@media (min-width: 1200px){
+    .container{
+        max-width: 970px;
+    }
+}
+
+#textcenter{
+    text-align: center;
+}
+
+.box_client{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: transparent;
+    border-radius: 10px;
+    width: 100%;
+
+}
+
+#client img{
+    height: 150px;
+    width: 150px;
+    scale: 80%;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: gray;
+    height: 250px;
+    border-radius: 10px;
+    width: 100%;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#testimonial{
+    display: flex;
+    justify-content: center;
+}
+
+#testimonial img{
+    scale: 80%;
+    width: 100px;
+    height: 100px;
+    border-radius: 1000px;
+}
+
+#subtitle{
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.box_subscribe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: deeppink;
+    margin-top: 20px;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    scale: 90%;
+    height: 170px;
+}
+
+#textsub{
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+input[type=text] {
+    width: 90%;
+    padding: 5px 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+button{
+    margin-top: -8px;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    color: white;
+    background-color: deeppink;
+    border-color: white;
+}
+
+.box_contact{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(65, 65, 65);
+    margin-top: 10px;
+    border-radius: 10px;
+    scale: 95%;
+    height: 380px;
+}
+
+#textwhite{
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 10px;
+    color: white;
+}
+
+#footerimg img{
+    margin-left: 10px;
+    display: inline-flex;
+    height: 50px;
+    width: 50px;
+}
